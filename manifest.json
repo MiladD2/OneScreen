@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "OneScreen",
+  "version": "1.0",
+  "description": "Capture full pages and save as PDF, PNG, or to clipboard.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "offscreen",
+    "storage",
+    "alarms",
+    "tabs",
+    "downloads",
+    "contextMenus",
+    "nativeMessaging",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "default_locale": "en",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "scripts/fsServiceWorker.js"
+  },
+  "commands": {
+    "capture-entire-page-action": {
+      "description": "Capture entire page"
+    },
+    "capture-visible-page-action": {
+      "description": "Capture visible page"
+    }
+  }
+}
