@@ -23,7 +23,7 @@
     "default_popup": "popup/popup.html"
   },
   "background": {
-    "service_worker": "scripts/fsServiceWorker.js"
+    "service_worker": "scripts/serviceWorker.js"
   },
   "commands": {
     "capture-entire-page-action": {

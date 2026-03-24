@@ -24,16 +24,16 @@ captureBtn.addEventListener("click", async () => {
     return;
   }
 
-  // Start capture via Fireshot native listener
+  // Start capture via OneScreen native listener
   captureBtn.disabled = true;
-  statusDiv.textContent = "Starting Fireshot capture...";
+  statusDiv.textContent = "Starting OneScreen capture...";
   progressContainer.classList.add("hidden");
 
-  // Trigger Fireshot capture flow natively by impersonating the public API event 
+  // Trigger OneScreen capture flow natively by impersonating the public API event 
   try {
     chrome.runtime.sendMessage({ 
         message: "capturePageEvt", 
-        Action: 0,       // 0 = Edit (Opens fsCaptured.html which acts as the post-process UI)
+        Action: 0,       // this should open captured.html which acts as the post-process UI
         Entire: "true",  // "true" = Entire page,
         Data: ""
     });
@@ -41,7 +41,7 @@ captureBtn.addEventListener("click", async () => {
     console.error("Capture trigger error:", e);
   }
   
-  // Fireshot handles its own tabs/processing UI, so we can close immediately
+  // OneScreen handles its own tabs/processing UI, so we can close immediately
   window.close();
 });
 

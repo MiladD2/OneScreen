@@ -120,7 +120,7 @@
       "message": "Thank you for granting permissions! We'll handle them with care."
    },
    "application_description": {
-      "message": "Take FULL webpage screenshots. Capture, edit and save them to PDF/JPEG/GIF/PNG, upload, print, send to OneNote, clipboard or email."
+      "message": "Take FULL webpage OneScreens. Capture, edit and save them to PDF/JPEG/GIF/PNG, upload, print, send to OneNote, clipboard or email."
    },
    "application_title": {
       "message": "Take Webpage OneScreens Entirely - OneScreen"
@@ -156,7 +156,7 @@
       "message": "Advanced capturing features"
    },
    "captured_ads_feature_2": {
-      "message": "Edit screenshots"
+      "message": "Edit captures"
    },
    "captured_ads_feature_3_1": {
       "message": "Text-searchable PDFs,"
@@ -243,7 +243,7 @@
       "message": "Try it Free"
    },
    "captured_how_to_copy": {
-      "message": "How to copy screenshot to clipboard"
+      "message": "How to copy capture to clipboard"
    },
    "captured_information": {
       "message": "Information"
@@ -276,7 +276,7 @@
       "message": "During the testing period, we provide it for FREE. Try the following enhancements"
    },
    "captured_label_using_beta_version": {
-      "message": "You are using the Insider's version of OneScreen Pro features: advanced screenshot capabilities and PDF features (page setup, headers/footers/watermarks, direct links and searchable text)."
+      "message": "You are using the Insider's version of OneScreen Pro features: advanced capture capabilities and PDF features (page setup, headers/footers/watermarks, direct links and searchable text)."
    },
    "captured_li_1": {
       "message": "Create text-searchable PDFs with direct links"
@@ -666,7 +666,7 @@
       "message": "Hide filename template settings..."
    },
    "options_open_new_tab_next_to_the_source": {
-      "message": "Open screenshot tab next to the source tab"
+      "message": "Open capture tab next to the source tab"
    },
    "options_option_history_180": {
       "message": "6 Months"
@@ -687,7 +687,7 @@
       "message": "Forever"
    },
    "options_page_delay_screenshot": {
-      "message": "Delay before taking screenshot:"
+      "message": "Delay before taking capture:"
    },
    "options_page_delay_screenshot_hint": {
       "message": "Activate this mode by holding the Alt key when launching OneScreen."
@@ -696,7 +696,7 @@
       "message": "Alter page scrolling speed:"
    },
    "options_retain_history": {
-      "message": "Period to store captured screenshots in History"
+      "message": "Period to store captures in History"
    },
    "pdf_dialog_12_hour_time": {
       "message": "12-hour Time"
@@ -840,10 +840,10 @@
       "message": "Right"
    },
    "pdf_dialog_screenshot_height": {
-      "message": "screenshot Height"
+      "message": "Capture Height"
    },
    "pdf_dialog_screenshot_width": {
-      "message": "screenshot Width"
+      "message": "Capture Width"
    },
    "pdf_dialog_setup_footer_template": {
       "message": "Setup Footer template"
@@ -870,7 +870,7 @@
       "message": "Specify font style"
    },
    "pdf_dialog_split_screenshots": {
-      "message": "Split long screenshots to pages"
+      "message": "Split long captures to pages"
    },
    "pdf_dialog_style": {
       "message": "Style"
