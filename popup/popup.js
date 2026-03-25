@@ -42,7 +42,7 @@ captureBtn.addEventListener("click", async () => {
   }
   
   // OneScreen handles its own tabs/processing UI, so we can close immediately
-  window.close();
+  // window.close();
 });
 
 // Listen for progress updates from background
@@ -133,4 +133,11 @@ resetBtn.addEventListener("click", () => {
   statusDiv.textContent = "Ready to capture";
   progressBar.style.width = "0%";
   progressContainer.classList.add("hidden");
+});
+
+chrome.storage.local.get("debugLogs", (res) => {
+  const logsDiv = document.getElementById("debug-logs");
+  if (logsDiv && res.debugLogs) {
+    logsDiv.textContent = res.debugLogs.slice(-5).join("\n");
+  }
 });
