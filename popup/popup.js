@@ -29,13 +29,13 @@ captureBtn.addEventListener("click", async () => {
   statusDiv.textContent = "Starting OneScreen capture...";
   progressContainer.classList.add("hidden");
 
-  // Trigger OneScreen capture flow natively by impersonating the public API event 
   try {
     chrome.runtime.sendMessage({ 
         message: "capturePageEvt", 
         Action: 0,       // this should open captured.html which acts as the post-process UI
         Entire: "true",  // "true" = Entire page,
-        Data: ""
+        Data: "",
+        tabId: tab.id
     });
   } catch (e) {
     console.error("Capture trigger error:", e);
