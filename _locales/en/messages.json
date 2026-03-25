@@ -54,7 +54,7 @@
       "message": "Open in External editor"
    },
    "action_install_native": {
-      "message": "Try advanced features"
+      "message": ""
    },
    "action_license_info": {
       "message": ""
@@ -153,7 +153,7 @@
       "message": "OneScreen"
    },
    "captured_ads_feature_1": {
-      "message": "Advanced capturing features"
+      "message": ""
    },
    "captured_ads_feature_2": {
       "message": "Edit captures"
@@ -237,7 +237,7 @@
       "message": ""
    },
    "captured_follow_the_instructions": {
-      "message": "Please follow the instructions to install advanced features"
+      "message": ""
    },
    "captured_get_free_button": {
       "message": "Try it Free"
@@ -252,10 +252,10 @@
       "message": "Actions"
    },
    "captured_label_advanced_features_preview": {
-      "message": "Advanced features preview"
+      "message": ""
    },
    "captured_label_can_be_captured_better": {
-      "message": "This page can be captured better with the advanced features installed."
+      "message": ""
    },
    "captured_label_limited_functionality": {
       "message": ""
@@ -288,7 +288,7 @@
       "message": "Customize page size, multipage options"
    },
    "captured_li_4": {
-      "message": "Advanced capturing: complex content, object selection"
+      "message": ""
    },
    "captured_link_get_screenshot_for": {
       "message": "Get OneScreen for"
@@ -372,7 +372,7 @@
       "message": ""
    },
    "captured_upgrade_link_2": {
-      "message": "OneScreen"
+      "message": ""
    },
    "captured_upgrade_link_3": {
       "message": "I was using another version of OneScreen"
@@ -972,7 +972,7 @@
       "message": "When loaded, wait to allow it to render completely"
    },
    "popup_protected_content_command1": {
-      "message": "Activate advanced features"
+      "message": ""
    },
    "popup_protected_content_command2": {
       "message": "Capture entire browser window"
@@ -990,7 +990,7 @@
       "message": "Use OneScreen to capture this page in Chrome, Firefox, or another browser."
    },
    "popup_protected_content_option2": {
-      "message": "to unlock advanced content capture options."
+      "message": ""
    },
    "popup_protected_content_option3": {
       "message": ", then crop it in Editor."
