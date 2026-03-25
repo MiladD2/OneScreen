@@ -48,7 +48,7 @@
       "message": "E-Mail"
    },
    "action_enter_license": {
-      "message": "Enter License info"
+      "message": ""
    },
    "action_external": {
       "message": "Open in External editor"
@@ -57,7 +57,7 @@
       "message": "Try advanced features"
    },
    "action_license_info": {
-      "message": "Licensing info..."
+      "message": ""
    },
    "action_micsellaneous": {
       "message": "Miscellaneous"
@@ -102,10 +102,10 @@
       "message": "Support"
    },
    "action_switch_pro": {
-      "message": "Switch to Pro"
+      "message": ""
    },
    "action_switch_pro_tabs": {
-      "message": "Activate Pro features to proceed..."
+      "message": ""
    },
    "action_upgrade": {
       "message": "Upgrade your Plan"
@@ -147,10 +147,10 @@
       "message": "Dismiss"
    },
    "captured_ads_button_lifetime_license": {
-      "message": "Get all the tools you need with full, unlimited access."
+      "message": ""
    },
    "captured_ads_button_purchase_screenshot_pro": {
-      "message": "Purchase OneScreen Pro"
+      "message": "OneScreen"
    },
    "captured_ads_feature_1": {
       "message": "Advanced capturing features"
@@ -165,7 +165,7 @@
       "message": "headers and footers"
    },
    "captured_ads_label_compare_lite_pro": {
-      "message": "compare OneScreen Lite and OneScreen Pro..."
+      "message": ""
    },
    "captured_ads_label_more_premium": {
       "message": "more premium features"
@@ -174,7 +174,7 @@
       "message": "Remove Ads"
    },
    "captured_ads_title_desc_1": {
-      "message": "Become a PRO and actively contribute to the development"
+      "message": ""
    },
    "captured_ads_title_desc_2": {
       "message": "of this extension"
@@ -189,7 +189,7 @@
       "message": "Continue"
    },
    "captured_button_free_10_day_trial": {
-      "message": "Free 10 day trial"
+      "message": ""
    },
    "captured_button_no_credit_card": {
       "message": "No credit card required"
@@ -204,7 +204,7 @@
       "message": "I like it"
    },
    "captured_buy_pro_button": {
-      "message": "Buy Pro"
+      "message": ""
    },
    "captured_can_switch_back": {
       "message": "You can switch back to Lite anytime."
@@ -234,7 +234,7 @@
       "message": "Sorry, an unexpected error occurred during PDF creation"
    },
    "captured_exit_beta_program": {
-      "message": "Exit the Insider program"
+      "message": ""
    },
    "captured_follow_the_instructions": {
       "message": "Please follow the instructions to install advanced features"
@@ -258,13 +258,13 @@
       "message": "This page can be captured better with the advanced features installed."
    },
    "captured_label_limited_functionality": {
-      "message": "Only a small part of this page can be saved due to browser limitations. You can use OneScreen Pro to save the entire page to PDF."
+      "message": ""
    },
    "captured_label_new": {
       "message": "new"
    },
    "captured_label_participate_beta": {
-      "message": "Join OneScreen Pro Insider program"
+      "message": ""
    },
    "captured_label_progress_sign": {
       "message": "Almost ready"
@@ -273,10 +273,10 @@
       "message": "Remove advertising"
    },
    "captured_label_try_enchancements": {
-      "message": "During the testing period, we provide it for FREE. Try the following enhancements"
+      "message": ""
    },
    "captured_label_using_beta_version": {
-      "message": "You are using the Insider's version of OneScreen Pro features: advanced capture capabilities and PDF features (page setup, headers/footers/watermarks, direct links and searchable text)."
+      "message": ""
    },
    "captured_li_1": {
       "message": "Create text-searchable PDFs with direct links"
@@ -297,13 +297,13 @@
       "message": "read more"
    },
    "captured_link_report_problem": {
-      "message": "Report problem"
+      "message": ""
    },
    "captured_link_see_terms_conditions": {
       "message": "See terms and conditions"
    },
    "captured_link_upgrade_for_extras": {
-      "message": "Upgrade to Pro to enable extras"
+      "message": ""
    },
    "captured_print": {
       "message": "Print"
@@ -312,7 +312,7 @@
       "message": "Print"
    },
    "captured_purchase_license": {
-      "message": "Purchase license"
+      "message": ""
    },
    "captured_rate_button": {
       "message": "Rate OneScreen"
@@ -336,7 +336,7 @@
       "message": "Recommend OneScreen"
    },
    "captured_report_problem": {
-      "message": "Report problem"
+      "message": ""
    },
    "captured_save_as_image": {
       "message": "Save as Image"
@@ -366,13 +366,13 @@
       "message": "Success"
    },
    "captured_upgrade_features_list": {
-      "message": "get Advanced Features to Annotate, Print and Save better, Edit, Upload, send to E-Mail or OneNote, or Export to another program"
+      "message": ""
    },
    "captured_upgrade_link_1": {
-      "message": "Create text-searchable PDFs, Capture, Annotate, Print and Save better, Edit, Upload, send to E-Mail / OneNote, or Export to another program."
+      "message": ""
    },
    "captured_upgrade_link_2": {
-      "message": "Upgrade to OneScreen Pro"
+      "message": "OneScreen"
    },
    "captured_upgrade_link_3": {
       "message": "I was using another version of OneScreen"
@@ -411,13 +411,13 @@
       "message": "Filter"
    },
    "history_promo_title": {
-      "message": "OneScreen Lite provides history for the last 7 days. Full history is available in OneScreen Pro."
+      "message": ""
    },
    "infinite_mode_warning": {
       "message": "Infinite scrolling mode detected. Stop OneScreen when needed."
    },
    "label_processing": {
-      "message": "Processing..."
+      "message": ""
    },
    "label_start": {
       "message": "Start"
@@ -426,7 +426,7 @@
       "message": "Total"
    },
    "lic_dialog_activate_successfully": {
-      "message": "License Activated Successfully!"
+      "message": ""
    },
    "lic_dialog_activation_error": {
       "message": "Activation Error"
@@ -447,7 +447,7 @@
       "message": "Deactivate on this Browser"
    },
    "lic_dialog_enter_owner_name": {
-      "message": "Enter your Owner name and License key exactly as they appeared when supplied. If you haven't got them yet, you can obtain them online:"
+      "message": ""
    },
    "lic_dialog_get_license": {
       "message": "Get licensing information..."
@@ -456,19 +456,19 @@
       "message": "Inactive"
    },
    "lic_dialog_invalid_lic_key": {
-      "message": "Invalid license key format."
+      "message": ""
    },
    "lic_dialog_lic_details": {
-      "message": "Enter license"
+      "message": ""
    },
    "lic_dialog_license_key": {
-      "message": "License Key:"
+      "message": ""
    },
    "lic_dialog_lid_information": {
-      "message": "License Information"
+      "message": ""
    },
    "lic_dialog_lifetime_license": {
-      "message": "Lifetime license"
+      "message": ""
    },
    "lic_dialog_manage_subscription": {
       "message": "Manage subscription..."
@@ -504,7 +504,7 @@
       "message": "Yearly plan"
    },
    "licensing_popup_cofirm_removal": {
-      "message": "Do you really want to deactivate license for this browser?"
+      "message": ""
    },
    "licensing_popup_licensing_info": {
       "message": "Licensing info"
@@ -513,7 +513,7 @@
       "message": "Registered to"
    },
    "licensing_popup_remove_key": {
-      "message": "Remove license from this browser"
+      "message": ""
    },
    "options_allow_infinite_scrolling": {
       "message": "Allow infinite scrolling pages"
@@ -555,7 +555,7 @@
       "message": "Close tab after saving"
    },
    "options_label_customize_saving": {
-      "message": "Customize saving process"
+      "message": ""
    },
    "options_label_default_filename_template": {
       "message": "Default filename template:"
@@ -573,10 +573,10 @@
       "message": "Integrate OneScreen into context menu"
    },
    "options_label_enable_error_reporting": {
-      "message": "When OneScreen is broken, automatically report erorrs to help improve OneScreen."
+      "message": ""
    },
    "options_label_enable_google_analytics": {
-      "message": "Send anonymous usage data to Google Analytics to help improve OneScreen"
+      "message": ""
    },
    "options_label_file_saving": {
       "message": "Saving"
@@ -978,10 +978,10 @@
       "message": "Capture entire browser window"
    },
    "popup_protected_content_line1": {
-      "message": "Edge browser protection prevents OneScreen from capturing this page."
+      "message": ""
    },
    "popup_protected_content_line2": {
-      "message": "How to resolve this problem:"
+      "message": ""
    },
    "popup_protected_content_line3": {
       "message": "See how to resolve this issue in a short video."
@@ -996,7 +996,7 @@
       "message": ", then crop it in Editor."
    },
    "popup_protected_content_title": {
-      "message": "Protected content"
+      "message": ""
    },
    "popup_protected_see_video": {
       "message": "See video..."
@@ -1005,7 +1005,7 @@
       "message": "Learn more"
    },
    "popup_tabs_permission_line1": {
-      "message": "To provide better capturing experience, OneScreen needs additional permissions."
+      "message": ""
    },
    "popup_tabs_permission_line2": {
       "message": "It's OK to ignore this request to capture this page by default, but some page elements may be captured incorrectly."
