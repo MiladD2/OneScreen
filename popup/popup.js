@@ -30,19 +30,25 @@ captureBtn.addEventListener("click", async () => {
   progressContainer.classList.add("hidden");
 
   try {
-    chrome.runtime.sendMessage({ 
-        message: "capturePageEvt", 
-        Action: 0,       // this should open captured.html which acts as the post-process UI
-        Entire: "true",  // "true" = Entire page,
-        Data: "",
-        tabId: tab.id
+    const response = await chrome.runtime.sendMessage({ 
+      message: "capturePageEvt", 
+      Action: 0,
+      Entire: "true",
+      Data: "",
+      tabId: tab.id
     });
+
+    if (response && response.success === false) {
+      throw new Error("Background rejected capture request");
+    }
+
+    // OneScreen handles its own tabs/processing UI, so we can close immediately.
+    window.close();
   } catch (e) {
+    captureBtn.disabled = false;
+    statusDiv.textContent = "Capture failed. Open extension errors for details.";
     console.error("Capture trigger error:", e);
   }
-  
-  // OneScreen handles its own tabs/processing UI, so we can close immediately
-  // window.close();
 });
 
 // Listen for progress updates from background
