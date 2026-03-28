@@ -44,15 +44,6 @@
       cursor: not-allowed;
       box-shadow: none;
     }
-    .secondary {
-      background-color: #262626;
-      border: 1px solid #404040;
-      color: #e5e5e5;
-    }
-    .secondary:hover {
-      background-color: #333;
-      border-color: #525252;
-    }
     #status {
       font-size: 0.85rem;
       color: #737373;
@@ -76,34 +67,16 @@
       border-radius: 10px;
       transition: width 0.2s;
     }
-    .actions {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
   </style>
 </head>
 <body>
   <h2>OneScreen</h2>
   
-  <div id="main-ui">
-    <button id="capture-btn">Capture Full Page</button>
-    <div id="progress-container" class="hidden">
-      <div id="progress-bar"></div>
-    </div>
-    <div id="status">Ready to capture</div>
+  <button id="capture-btn">Capture Full Page</button>
+  <div id="progress-container" class="hidden">
+    <div id="progress-bar"></div>
   </div>
-
-  <div id="export-ui" class="hidden">
-    <div class="actions">
-      <button id="save-png">Download PNG</button>
-      <button id="save-pdf">Save as PDF</button>
-      <button id="copy-btn">Copy to Clipboard</button>
-      <button id="reset-btn" class="secondary">Capture New Page</button>
-    </div>
-    <div id="export-status"></div>
-  
-  </div>
+  <div id="status">Ready to capture</div>
 
   <script src="popup.js"></script>
 </body>

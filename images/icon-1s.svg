@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="1S icon">
+  <defs>
+    <linearGradient id="paintGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#59a2ff" />
+      <stop offset="55%" stop-color="#2f79ff" />
+      <stop offset="100%" stop-color="#1658df" />
+    </linearGradient>
+    <linearGradient id="blobGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9f2ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#c5dcff" stop-opacity="0.65" />
+    </linearGradient>
+    <style>
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+      .outline {
+        font-family: 'Modak', 'Baloo 2', 'Cooper Black', 'Arial Black', cursive;
+        font-size: 84px;
+        font-weight: 900;
+        fill: #f7fbff;
+        stroke: #1c4eb5;
+        stroke-width: 6.5px;
+        stroke-linejoin: round;
+        paint-order: stroke fill;
+        letter-spacing: 1px;
+      }
+      .main {
+        font-family: 'Modak', 'Baloo 2', 'Cooper Black', 'Arial Black', cursive;
+        font-size: 84px;
+        font-weight: 900;
+        fill: url(#paintGrad);
+        stroke: #2d64d9;
+        stroke-width: 2.2px;
+        stroke-linejoin: round;
+        paint-order: stroke fill;
+        letter-spacing: 1px;
+      }
+      .shine {
+        font-family: 'Modak', 'Baloo 2', 'Cooper Black', 'Arial Black', cursive;
+        font-size: 84px;
+        font-weight: 900;
+        fill: #ffffff;
+        opacity: 0.28;
+        letter-spacing: 1px;
+      }
+      ]]>
+    </style>
+  </defs>
+  <rect width="128" height="128" fill="none" />
+  <g opacity="0.92">
+    <ellipse cx="64" cy="67" rx="54" ry="36" fill="url(#blobGrad)" />
+    <circle cx="22" cy="89" r="5" fill="#7db1ff" />
+    <circle cx="106" cy="95" r="4" fill="#4b8fff" />
+    <circle cx="96" cy="28" r="3" fill="#9ac3ff" />
+    <circle cx="31" cy="31" r="2.6" fill="#a9ccff" />
+  </g>
+  <g text-anchor="middle" transform="rotate(-8 64 64) skewX(-5)">
+    <text x="64" y="84" class="outline">1S</text>
+    <text x="64" y="84" class="main">1S</text>
+    <text x="61" y="78" class="shine">1S</text>
+  </g>
+</svg>

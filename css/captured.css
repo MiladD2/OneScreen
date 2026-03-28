@@ -15,12 +15,6 @@ div.fsButton {float: __MSG_@@bidi_end_edge__}
     float: __MSG_@@bidi_start_edge__;
 }
 
-#btnSendEmail > li, #menuPDFFeatures > li {text-align: __MSG_@@bidi_start_edge__;}
-
-#menuPDFFeatures label {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
 
 button {outline: 0 !important;}
 
@@ -137,46 +131,6 @@ div.row {padding-top: 10px}
     footer {padding: 10px}
 }
 
-.imgForPrinting, #divPrinting {display:none;}
-
-@media print {
-    .noPrint {
-        display: none !important;
-    }
-
-    .container, .row {
-        padding: 0 !important;
-        margin: 0 !important;
-        width: unset !important;
-    }
-
-    #divLeftCol, #divImgResult {
-        zoom: 1 !important;
-        width: auto !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        border: 0px;
-       
-    }
-
-    #divImgResult {
-        break-inside: avoid;
-        display: inline-block;
-    }
-
-    #divPrinting {
-        margin: 0;
-        padding: 0;
-        display: inline-block !important;
-    }
-    
-    .imgForPrinting {
-        display: initial;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-}
 
 /* #divCanBeBetterPromo {
     position: sticky;
@@ -200,74 +154,6 @@ div.row {padding-top: 10px}
     justify-content: space-between;
 }
 
-#divTryAdvancedFeatures-1, #divTryAdvancedFeatures-2 {
-    padding: 7px;
-    /* color: #333;
-    font-weight: bold; */
-}
-
-#menuPDFFeatures input {
-    vertical-align: text-bottom;
-}
-
-.mnuItemDisabled {
-    transition: all 0.3s ease-out;
-}
-
-#menuPDFFeatures li:not(#mnuPDFUpgrade) a, #menuPDFFeatures li label {
-    cursor: default;
-} 
-
-
-#divUpgradeMsg {
-    display: none; 
-    position: absolute;
-    z-index: 9999; 
-    background: repeating-linear-gradient(
-        145deg,
-        rgba(57, 68, 78, 0.8),
-        rgba(57, 68, 78, 0.8) 2px,
-        rgba(39, 46, 54, 0.8) 2px,
-        rgba(39, 46, 54, 0.8) 4px
-    );
-}
-
-#divUpgradeMsg > div {
-    width: 100%; 
-    height:100%; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-}
-
-#divUpgradeMsg > div > div {
-    text-align: center; 
-    background: rgba(0, 0, 0, 0.38); 
-    padding:10px 10px 15px;
-}
-
-#divUpgradeMsg  a, #lnkUpgradeFromPDF {
-    color: #fff;
-    cursor: pointer;
-}
-
-#lnkUpgradeFromPDF {padding: 7px;}
-
-
-#mnuPDFUpgrade {display: none;}
-
-#mnuPDFUpgrade a {cursor: pointer; font-size: 14px; color: #fff;}
-
-
-
-/* #upgradeItem {
-    font-size: 14px;
-} */
-
-#pdfCaret, #pdfSettings {
-    display: inline;
-    padding: 5px 5px 5px 0
-}
 
 #divPreviewWarning, #divBackToLiteWarning {
     font-size: 12px; 
